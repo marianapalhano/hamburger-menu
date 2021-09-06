@@ -33,7 +33,6 @@ nav .lateral-menu {
     list-style: none;
     background-color: #ddd;
     min-width: 240px;
-    display: none;
 }
 
 nav .lateral-menu li a {
@@ -53,6 +52,10 @@ nav .lateral-menu a {
     color: #000;
 }
 
-nav ul .lateral-menu .active {
+.active {
     display: block;
+}
+
+.hidden {
+    display: none;
 }
